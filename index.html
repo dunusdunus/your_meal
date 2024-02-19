@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+		<!-- Стандартная мета-инфа -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="msapplication-TileColor" content="#ffc40d" />
+    <meta name="theme-color" content="#ffffff" />
+		<!-- Фавиконки -->
+    <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="icon/safari-pinned-tab.svg" color="#5bbad5" />
+		<!-- Предзагрузка шрифтов, чтобы шрифт не скакал при релоаде -->
+		<link rel="preload" href="fonts/nunito-v26-cyrillic_latin-600.woff2" as="font" crossorigin />
+		<link rel="preload" href="fonts/nunito-v26-cyrillic_latin-800.woff2" as="font" crossorigin />
+		<link rel="preload" href="fonts/nunito-v26-cyrillic_latin-regular.woff2" as="font" crossorigin />
+		<!-- Стили здесь -->
+		<link rel="stylesheet" href="css/index.css" />
+    <title>Your Meal — Главная</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__container">
+				<!-- Используем svg спрайт для логотипа -->
+        <svg class="header__logo" viewBox="0 0 199 44" role="img" aria-label="Логотип YourMeal">
+          <use href="img/sprite.svg#logo" />
+        </svg>
+
+				<div class="header__title-container">
+					<h1 class="header__title">
+						<span class="header__title-text">Только самые</span> 
+						<span class="header__title-text header__title-text_red">сочные бургеры!</span>
+					</h1>
+					<p class="header__appeal">Бесплатная доставка от 599₽</p>
+				</div>
+      </div>
+    </header>
+  </body>
+</html>

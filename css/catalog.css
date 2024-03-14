@@ -5,6 +5,7 @@
 .catalog__order {
   margin-bottom: 30px;
   min-height: 48px;
+  z-index: 1;
 }
 
 .catalog__title {
